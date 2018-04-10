@@ -1,0 +1,29 @@
+{
+    "name": "LiquidCrystal_I2C", 
+    "repository": {
+        "url": "https://github.com/tonykambo/LiquidCrystal_I2C.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "3aa702a291", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Tony Kambourakis", 
+            "url": "https://github.com/tonykambo", 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "lcd", 
+        "liquidcrystal", 
+        "i2c"
+    ], 
+    "id": 1574, 
+    "description": "A library for DFRobot I2C LCD displays with port parameters"
+}

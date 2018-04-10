@@ -1,0 +1,55 @@
+{
+    "description": "Library for using the 8- and 16-pin I2C GPIO-expanders PCF8574 and PCF8575", 
+    "repository": {
+        "url": "https://github.com/WereCatf/PCF8574_ESP", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif32", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "nordicnrf52", 
+        "ststm32", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "Rob Tillaart", 
+            "url": null, 
+            "email": null
+        }, 
+        {
+            "maintainer": true, 
+            "name": "WereCatf", 
+            "url": null, 
+            "email": "werecatf@gmail.com"
+        }
+    ], 
+    "keywords": [
+        "communication"
+    ], 
+    "id": 1659, 
+    "name": "PCF8574_ESP", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.0.8", 
+    "homepage": null
+}
